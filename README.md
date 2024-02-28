@@ -78,7 +78,7 @@ To evaluate the result of the fine tuned model, we evaluate the following prompt
 ![GPT-1](https://i.ibb.co/ZYPZScv/gpt-1.png)
 
 2. Fine-tuned response:
-![GPT-1](https://i.ibb.co/ZYPZScv/gpt-1.png)
+![GPT-1](https://i.ibb.co/qjbnzpX/finetun-2.png)
 
 
 ## Performance
