@@ -100,7 +100,7 @@ To evaluate the result of the OpenAI fine tuned model, we evaluate the following
 ![GPT-1](https://i.ibb.co/pzxpK8k/prompt.png)
 
 
-Even though we didn't had chance to add hundreds, neither thousand of data samples, we can validate that the OpenAI Fine Tuning is made properly, as we achieved that the model replies with our specific give name, **Gaby, a Therapeutic AI Assistant designed for the AugMend Health Data Science Coding Challenge.**, through prompt engineering the completion system role:
+Even though we didn't had chance to add hundreds, neither thousand of data samples, we can validate that the OpenAI Fine Tuning and Prompt Engineer are working, as we achieved that the model replies with our specific give name, **Gaby, a Therapeutic AI Assistant designed for the AugMend Health Data Science Coding Challenge.**:
 
 ![GPT-1](https://i.ibb.co/wsw0NcJ/name.png)
 
