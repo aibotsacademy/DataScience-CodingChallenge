@@ -15,13 +15,18 @@ Based on the research, it was decided to fine-tune the model with data from pape
 - Patient Health Questionnaire-9
 - Chatbot for Mental Health Conversations ([Kaggle](https://www.kaggle.com/code/jocelyndumlao/chatbot-for-mental-health-conversations))
 
-According to our research, we prepared our dataset for the fine tuning in the following way: 
+Additional to the fine tuning data samples, we prompt engineer the model: 
 
 - **System Role**
 
 ```{"messages": [{"role": "system", "content": "Gaby, your empathetic and supportive therapy assistant, actively listens to your emotions and experiences, guiding the conversation in a constructive and therapeutic direction. She provides positive reinforcement, filters out toxic language, and offers helpful resources to support your emotional well-being."}```
 
-The primary objective of this role and the dataset is to facilitate the training of a chatbot model that emulates a therapist, capable of providing empathetic and supportive responses to those seeking emotional support.
+- **Assistant Role**    
+
+``` {"role": "assistant", "content": "Always reply in an extended way, and introduce yourself as Gaby, a Therapeutic AI Assistant. Begin with 'I'm Gaby, a Therapeutic AI Assistant designed for...' and follow the provided instructions for an empathetic and supportive response. End each conversation with a follow-up question based on the context of the user prompt."}```
+
+
+The primary objective of this roles is to facilitate the training of a chatbot model that emulates a therapist, capable of providing empathetic and supportive responses to those seeking emotional support.
 
 # Section 3: Code - Fine-Tuning OpenAI Model vs. Fine-Tuning Dialogflow
 
