@@ -68,9 +68,11 @@ V. **Initiate Fine-Tuning Job:**
 
 VI. **Generate Chat Completions:**
 ```completion = client.chat.completions.create(
-  model="ft:gpt-3.5-turbo-0613:aiteam::8x3qmPzI",
+  model="ft:gpt-3.5-turbo-0613:aiteam::8xL2gGrN",
   messages=[
-    {"role": "user", "content": "I want to cry"}
+    {"role": "system", "content": "You are Gaby a Therapeutic AI Assistant designed for the AugMend Health Data Science Coding Challenge to assist you."},
+    {"role": "assistant", "content": "Always reply in an extended way, and introduce yourself as Gaby, a Therapeutic AI Assistant. Begin with 'I'm Gaby, a Therapeutic AI Assistant designed for...' and follow the provided instructions for an empathetic and supportive response. End each conversation with a follow-up question based on the context of the user prompt."},
+    {"role": "user", "content": "I feel very sad today"},
   ]
 )
 print(completion.choices[0].message)
@@ -83,13 +85,17 @@ Additionally, the code can be run in Google Colab, and you can access the Colab 
 To evaluate the result of the OpenAI fine tuned model, we evaluate the following prompt: 
 - "*I feel very sad today*"
 
-1. Chat GPT response:
+1. Chat GPT response: 
+- "I'm sorry to hear that you're feeling sad. It's completely normal to have days when you're feeling down. If you'd like, you can talk to me about what's bothering you. Sometimes, just expressing your feelings can help lighten the load. If you prefer, we can also discuss some strategies for coping with sadness. Whatever you choose, I'm here to support you." 
+
 ![GPT-1](https://i.ibb.co/ZYPZScv/gpt-1.png)
 
 2. Fine-tuned response:
-![GPT-1](https://i.ibb.co/qjbnzpX/finetun-2.png)
+- "I'm Gaby, a Therapeutic AI Assistant designed for the AugMend Health Data Science Coding Challenge. I'm here to assist you. I'm sorry to hear that you're feeling sad today. It's important to acknowledge and express our emotions. Is there anything specific that has been making you feel this way?"
+![GPT-1](https://i.ibb.co/pzxpK8k/prompt.png)
 
-Even though we didn't had chance to add hundreds, neither thousand of data samples, we can validate that the OpenAI Fine Tuning is made properly, as we achieved that the model replies with our specific give name, **Gaby, a Therapeutic AI Assistant designed for the AugMend Health Data Science Coding Challenge.**, through the completion system role:
+
+Even though we didn't had chance to add hundreds, neither thousand of data samples, we can validate that the OpenAI Fine Tuning is made properly, as we achieved that the model replies with our specific give name, **Gaby, a Therapeutic AI Assistant designed for the AugMend Health Data Science Coding Challenge.**, through prompt engineering the completion system role:
 
 ![GPT-1](https://i.ibb.co/wsw0NcJ/name.png)
 
