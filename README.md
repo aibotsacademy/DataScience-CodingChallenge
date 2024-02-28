@@ -9,7 +9,7 @@ One of the key papers that informed our research is:
 - URL: [Link to the paper](https://www.diva-portal.org/smash/get/diva2:1782678/FULLTEXT01.pdf)
 
 ## Database
-Based on the research, it was decided to fine-tune the model with data from papers and studies that can demonstrate not just a technical improvement of the loss and accuracy, but also a well-being for the patient. This involved fine-tuning a LLM using Reinforcement Learning from Human Feedback for a Therapy Chatbot Application. The dataset used for this investigation was a set of questions and answers from Counsel Chat. Counsel Chat is a platform where users can contact verified therapists and ask mental health-related questions.
+Based on the research, it was decided to fine-tune the model with data from papers and studies that can demonstrate not just a technical improvement of the loss and accuracy, but also a well-being for the patient. This involved fine-tuning the LLM using the previous paper mentioned, that includes a set of questions and answers from Counsel Chat. Counsel Chat is a platform where users can contact verified therapists and ask mental health-related questions.
 
 ## Code
 
