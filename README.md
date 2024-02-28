@@ -80,7 +80,7 @@ Please note that you need to replace "ADD-KEY-HERE" with our temporary OpenAI AP
 Additionally, the code can be run in Google Colab, and you can access the Colab notebook for this code here.
 
 ## 3.1.1 Results
-To evaluate the result of the fine tuned model, we evaluate the following prompt: 
+To evaluate the result of the OpenAI fine tuned model, we evaluate the following prompt: 
 - "*I feel very sad today*"
 
 1. Chat GPT response:
@@ -88,6 +88,11 @@ To evaluate the result of the fine tuned model, we evaluate the following prompt
 
 2. Fine-tuned response:
 ![GPT-1](https://i.ibb.co/qjbnzpX/finetun-2.png)
+
+Even though we didn't had chance to add hundreds, neither thousand of data samples, we can validate that the OpenAI Fine Tuning is made properly, as we achieved that the model replies with our specific give name, **Gaby, a Therapeutic AI Assistant designed for the AugMend Health Data Science Coding Challenge.**, through the completion system role:
+
+![GPT-1](https://i.ibb.co/wsw0NcJ/name.png)
+
 
 ## 3.1.2 Performance
 
