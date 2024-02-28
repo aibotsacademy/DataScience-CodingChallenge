@@ -9,7 +9,7 @@ One of the key papers that informed our research is:
 - URL: [Link to the paper](https://www.diva-portal.org/smash/get/diva2:1782678/FULLTEXT01.pdf)
 
 ## Database
-Based on the research, it was decided to fine-tune the model with data from papers and studies that can demonstrate not just a technical improvement of the loss and accuracy, but also a well-being for the patient. This involved fine-tuning the LLM using the previous paper mentioned, that includes a set of questions and answers from sources like:
+Based on the research, it was decided to fine-tune the model with data from papers and studies that can demonstrate not just a technical improvement of the loss and accuracy, but also a well-being for the patient, as well to train models to comprehend and respond empathetically to user messages. This involved fine-tuning the LLM using the previous paper mentioned and Kaggle Datasets, that includes a set of questions and answers. This resources are:
 
 - Counsel Chat is a platform where users can contact verified therapists and ask mental health-related questions.
 - Patient Health Questionnaire-9
