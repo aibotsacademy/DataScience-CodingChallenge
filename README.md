@@ -25,6 +25,16 @@ The primary objective of this role and the dataset is to facilitate the training
 
 ## Code
 
+# Fine-Tuning OpenAI Model vs. Fine-Tuning Dialogflow
+
+This repository explores two approaches to fine-tuning natural language processing (NLP) models: fine-tuning an OpenAI model and fine-tuning Dialogflow for specific business use cases.
+
+## I. Fine-Tuning OpenAI Model:
+
+- **Approach**: Adapt GPT-3.5 pre-trained model, to new data or tasks.
+- **Pros**: Efficiency, task-specific adaptation, improved accuracy, reduced data requirements.
+- **Cons**: Overfitting, domain specificity, complexity.
+
 To run the provided code, follow these steps:
 
 1. **Install the OpenAI Package:**
@@ -79,6 +89,11 @@ To evaluate the result of the fine tuned model, we evaluate the following prompt
 
 2. Fine-tuned response:
 ![GPT-1](https://i.ibb.co/qjbnzpX/finetun-2.png)
+
+## II. Fine-Tuning Dialogflow
+- **Approach**: Customize the Dialogflow platform to align with specific business use cases.
+- **Pros**: Customization, platform integration, user understanding, task-specific responses.
+- **Cons**: Training data quality, cognitive biases, complex decision-making.
 
 
 ## Performance
