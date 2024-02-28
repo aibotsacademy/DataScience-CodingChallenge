@@ -82,3 +82,8 @@ To evaluate the result of the fine tuned model, we evaluate the following prompt
 
 
 ## Performance
+
+![GPT-1](https://i.ibb.co/hHRVGsy/perf1.png)
+
+![GPT-1](https://i.ibb.co/yshpKsq/perf2.png)
+
