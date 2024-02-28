@@ -136,8 +136,13 @@ To run the provided code, follow these steps:
 
 
 ## 3.2.3 Evaluating the Model Performance
-- **Review User Interactions**: Review the user interactions with the agent to assess its performance in understanding and responding to user inputs.
-- **Analyze Conversation Logs**: In the Dialogflow Console, analyze the conversation logs to identify areas where the agent may require further fine-tuning. Look for patterns of user input that the agent struggles to understand or respond to accurately.
-- **Utilize Analytics and Metrics**: Leverage Dialogflow's analytics and metrics features to track the agent's performance over time. Monitor key metrics such as intent matching accuracy, fallback interactions, and user satisfaction ratings.
-- **Iterative Fine-Tuning**: Use the insights gained from evaluating the model performance to iteratively fine-tune the agent. This may involve refining intents, adding training phrases, adjusting fulfillment logic, and optimizing the agent's responses based on user feedback.
+- **Analyze Conversation Logs**: In the Dialogflow Console, we analyze the conversation logs to identify areas where the agent may require further fine-tuning. Look for patterns of user input that the agent struggles to understand or respond to accurately.
+
+
+![GPT-1](https://i.ibb.co/2jcwqYf/history.png)
+
+
+- Dialogflow's analytics and metrics features can track the agent's performance over time. Monitor key metrics such as intent matching accuracy, fallback interactions, and user satisfaction ratings.
+
+- Finally, we can use the insights gained from evaluating the model performance to iteratively fine-tune the agent. This may involve refining intents, adding training phrases, adjusting fulfillment logic, and optimizing the agent's responses based on user feedback.
 
