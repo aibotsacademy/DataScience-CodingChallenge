@@ -1,7 +1,7 @@
 # 🤖 Data Science Coding Challenge -> Therapy Chatbot Fine-Tuning
 
 ## Research
-Before augmenting the psychology data for the Fine Tuning, it was crucial to conduct thorough research on relevant papers and studies about the use and application of Therapy chatbots. This involved exploring the implications in mental health, forming hypotheses, considering ethical implications, and addressing problems that may arise. Fine-tuning large language models has inherent risks, especially for text generation and assisting technologies. As the models are trained on datasets scraped from sites on the internet, including banned ones with harmful content, the responses to prompts can contain toxic language. Another ethical aspect that must be considered when developing a psychological bot is who is responsible for the bot’s actions.
+Before augmenting the psychology data for the Fine Tuning, it was crucial to conduct a research on relevant papers and studies about the use and application of Therapy chatbots. This involved exploring the implications in mental health, forming hypotheses, considering ethical implications, and addressing problems that may arise. Fine-tuning large language models has inherent risks, especially for text generation and assisting technologies. As the LLMs could be trained on datasets including scraped websites with harmful and banned content, so the responses to prompts can contain toxic language. Another ethical aspect that must be considered when developing a psychological bot is who is responsible for the bot’s actions.
 
 One of the key papers that informed our research is:
 - Author(s): Lindgren, Helena and Sjöström, Jonas
