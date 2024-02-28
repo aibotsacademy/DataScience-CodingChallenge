@@ -103,17 +103,21 @@ To evaluate the result of the fine tuned model, we evaluate the following prompt
 To run the provided code, follow these steps:
 
 ## 3.2.1 Importing the Zip Project into Dialogflow Console
-- **Log in to Dialogflow Console**: Go to the Dialogflow Console and log in with your credentials.
-- **Create a New Agent or Select an Existing Agent**: If you don't have an existing agent, create a new agent. Otherwise, select the existing agent where you want to import the zip project.
-- **Navigate to the Settings Page**: In the left navigation bar, click on the gear icon to navigate to the settings page of the selected agent.
-- **Export and Import Tab**: Click on the "Export and Import" tab in the settings page.
-- **Import Zip**: Click on the "Import Zip" button and select the zip project file to import into the agent. Follow the on-screen instructions to complete the import process.
+- **Log in to Dialogflow Console**
+- **Create a New Agent or Select an Existing Agent**
+- **Navigate to the Settings Page**
+- **Export and Import Tab**
+- **Import Zip**
 
 ## 3.2.2 Fine-Tuning in the Chat Box
-- **Access the Dialogflow Console**: Navigate to the Dialogflow Console and open the agent where you imported the zip project.
-- **Access the Chat Box**: Use the built-in chat box or integrate the agent with a supported platform to access the chat interface.
-- **Engage in Conversations**: Engage in conversations with the agent by typing or speaking input into the chat box. This allows you to fine-tune the agent by providing real user inputs and evaluating its responses.
-- **Provide Feedback**: During the conversations, provide feedback on the agent's responses to help fine-tune its performance. This feedback can include correcting misunderstood intents, providing additional training phrases, and evaluating the relevance of responses.
+- **Access the Dialogflow Console**
+- **Access the Chat Box**
+- **Engage in Conversations**
+- **Provide Feedback**
+
+![GPT-1](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnlyMzVsMHdjZTV6bjE5MnkwYTk3a2l0cG83N201czNsbXRhYmYxOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jPGjJVvmADFehUI9UG/giphy.gif
+)
+
 
 ## 3.2.3 Evaluating the Model Performance
 - **Review User Interactions**: Review the user interactions with the agent to assess its performance in understanding and responding to user inputs.
