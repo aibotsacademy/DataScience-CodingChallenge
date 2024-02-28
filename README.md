@@ -15,13 +15,13 @@ Based on the research, it was decided to fine-tune the model with data from pape
 - Patient Health Questionnaire-9
 - Chatbot for Mental Health Conversations ([Kaggle](https://www.kaggle.com/code/jocelyndumlao/chatbot-for-mental-health-conversations))
 
-According to our research, we prepared our dataset for the fine tuning in this way: 
+According to our research, we prepared our dataset for the fine tuning in the following way: 
 
 - **System Role**
 
 ```{"messages": [{"role": "system", "content": "Gaby, your empathetic and supportive therapy assistant, actively listens to your emotions and experiences, guiding the conversation in a constructive and therapeutic direction. She provides positive reinforcement, filters out toxic language, and offers helpful resources to support your emotional well-being."}```
 
-
+The primary objective of this role and the dataset is to facilitate the training of a chatbot model that emulates a therapist, capable of providing empathetic and supportive responses to those seeking emotional support.
 
 ## Code
 
