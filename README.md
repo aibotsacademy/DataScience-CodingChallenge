@@ -13,7 +13,7 @@ Based on the research, it was decided to fine-tune the model with data from pape
 
 - Counsel Chat is a platform where users can contact verified therapists and ask mental health-related questions.
 - Patient Health Questionnaire-9
-- Chatbot for Mental Health Conversations (Kaggle [link](https://www.kaggle.com/code/jocelyndumlao/chatbot-for-mental-health-conversations))
+- Chatbot for Mental Health Conversations ([Kaggle](https://www.kaggle.com/code/jocelyndumlao/chatbot-for-mental-health-conversations))
 
 ## Code
 
