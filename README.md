@@ -71,5 +71,14 @@ Please note that you need to replace "ADD-KEY-HERE" with our temporary OpenAI AP
 Additionally, the code can be run in Google Colab, and you can access the Colab notebook for this code here.
 
 ## Results
+To evaluate the result of the fine tuned model, we evaluate the following prompt: 
+- "*I feel very sad today*"
+
+1. Chat GPT response:
+![GPT-1](https://i.ibb.co/ZYPZScv/gpt-1.png)
+
+2. Fine-tuned response:
+![GPT-1](https://i.ibb.co/ZYPZScv/gpt-1.png)
+
 
 ## Performance
