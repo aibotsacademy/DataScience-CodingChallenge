@@ -109,8 +109,6 @@ Even though we didn't had chance to add hundreds, neither thousand of data sampl
 
 ![GPT-1](https://i.ibb.co/hHRVGsy/perf1.png)
 
-![GPT-1](https://i.ibb.co/yshpKsq/perf2.png)
-
 ## 3.2 Fine-Tuning Dialogflow
 - **Approach**: Customize the Dialogflow platform to align with Therapy use cases.
 - **Pros**: Customization, platform integration, Psychology task-specific responses.
