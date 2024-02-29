@@ -15,7 +15,7 @@ Based on the research, it was decided to fine-tune the model with data from pape
 - Chatbot for Mental Health Conversations ([Kaggle](https://www.kaggle.com/code/jocelyndumlao/chatbot-for-mental-health-conversations))
 - Counsel Chat is a platform where users can contact verified therapists and ask mental health-related questions.
 
-Additional to the fine-tuning dataset, we prompt engineering the model: 
+Additional to fine-tuning the dataset, we prompt engineering the model to increase the model accuracy in the responses, through the following methods: 
 
 - **System Role**
 
