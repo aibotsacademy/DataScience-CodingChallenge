@@ -30,7 +30,7 @@ The primary objective of this roles is to facilitate the training of a chatbot m
 
 # Section 3: Code - Fine-Tuning OpenAI Model vs. Fine-Tuning Dialogflow
 
-This repository explores two approaches to fine-tuning natural language processing (NLP) models: fine-tuning an OpenAI model and fine-tuning Dialogflow for specific business use cases.
+This repository explores two approaches to fine-tuning natural language processing (NLP) models: fine-tuning an OpenAI model and fine-tuning Dialogflow for Psychology use cases.
 
 ## 3.1 Fine-Tuning OpenAI Model:
 
@@ -112,8 +112,8 @@ Even though we didn't had chance to add hundreds, neither thousand of data sampl
 ![GPT-1](https://i.ibb.co/yshpKsq/perf2.png)
 
 ## 3.2 Fine-Tuning Dialogflow
-- **Approach**: Customize the Dialogflow platform to align with specific business use cases.
-- **Pros**: Customization, platform integration, user understanding, task-specific responses.
+- **Approach**: Customize the Dialogflow platform to align with Therapy use cases.
+- **Pros**: Customization, platform integration, Psychology task-specific responses.
 - **Cons**: Training data quality, cognitive biases, complex decision-making.
 
 To run the provided code, follow these steps:
@@ -125,7 +125,7 @@ To run the provided code, follow these steps:
 - **Export and Import Tab**
 - **Import Zip**
 
-## 3.2.2 Fine-Tuning in the Chat Box
+## 3.2.2 Try the Fine-Tuned model in the Chat Box
 - **Access the Dialogflow Console**
 - **Access the Chat Box**
 - **Engage in Conversations**
