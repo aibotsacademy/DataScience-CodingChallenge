@@ -1,7 +1,7 @@
 # 🤖 Data Science Coding Challenge -> Therapy Chatbot Fine-Tuning
 
 # Section 1: Research
-Before augmenting the psychology data for the Fine Tuning, it was crucial to conduct a research on relevant papers and studies about the use and application of Therapy chatbots. This involved exploring the implications in mental health, forming hypotheses, considering ethical implications, and addressing problems that may arise. Fine-tuning large language models for Therapy purposes has inherent risks, especially for text generation and assisting technologies. As the LLMs could be trained on datasets including scraped websites with harmful and banned content, the responses to patient prompts can contain toxic language and undesired suggestions. Another ethical aspect that must be considered when developing a psychological bot is who is responsible for the bot’s actions.
+Before augmenting the psychology data for the fine-tuning, it was crucial to conduct a research on relevant papers and studies about the use and application of Therapy chatbots. This involved exploring the implications in mental health, forming hypotheses, considering ethical implications, and addressing problems that may arise. Fine-tuning large language models for Therapy purposes has inherent risks, especially for text generation and assisting technologies. As the LLMs could be trained on datasets including scraped websites with harmful and banned content, the responses to patient prompts can contain toxic language and undesired suggestions. Another ethical aspect that must be considered when developing a psychological bot is who is responsible for the bot’s actions.
 
 One of the key papers that informed our research is:
 - Author(s): Lindgren, Helena and Sjöström, Jonas
@@ -11,11 +11,11 @@ One of the key papers that informed our research is:
 # Section 2: Dataset
 Based on the research, it was decided to fine-tune the model with data from papers and studies that can demonstrate not just a technical improvement of the loss and accuracy, but also a well-being for the patient, as well to train models to comprehend and respond empathetically to user messages. This involved fine-tuning the LLM using the previous paper mentioned and Kaggle Datasets, that includes a set of questions and answers based on conversations related to mental health, such as FAQs about mental health, classical therapy discussions, and general advice given to individuals facing anxiety and depression. This resources are:
 
-- Counsel Chat is a platform where users can contact verified therapists and ask mental health-related questions.
-- Patient Health Questionnaire-9
-- Chatbot for Mental Health Conversations ([Kaggle](https://www.kaggle.com/code/jocelyndumlao/chatbot-for-mental-health-conversations))
 
-Additional to the fine tuning data samples, we prompt engineering the model: 
+- Chatbot for Mental Health Conversations ([Kaggle](https://www.kaggle.com/code/jocelyndumlao/chatbot-for-mental-health-conversations))
+- Counsel Chat is a platform where users can contact verified therapists and ask mental health-related questions.
+
+Additional to the fine-tuning dataset, we prompt engineering the model: 
 
 - **System Role**
 
