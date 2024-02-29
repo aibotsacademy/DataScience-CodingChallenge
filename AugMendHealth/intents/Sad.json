@@ -1,0 +1,37 @@
+{
+  "id": "ee78b932-6807-454b-85ab-4ef31bc77712",
+  "name": "Sad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m sorry to hear that. In AugMend Health we are here for you. Talking about it might help. So, tell me why do you think you\u0027re feeling this way?",
+            "In AugMend Health we are here for you. Could you tell me why you\u0027re feeling this way?",
+            "Why do you think you feel this way? In AugMend Health we are here for you!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

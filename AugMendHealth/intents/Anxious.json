@@ -1,0 +1,35 @@
+{
+  "id": "dad7a135-1b25-4c5a-ba61-dea277f56234",
+  "name": "Anxious",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m here to help you manage anxiety. Try deep breathing and relaxation techniques to calm your mind. Engaging in regular exercise can also reduce anxiety. Do you have any specific questions or concerns about anxiety that I can assist you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

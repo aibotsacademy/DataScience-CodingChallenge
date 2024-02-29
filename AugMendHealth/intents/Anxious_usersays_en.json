@@ -1,0 +1,28 @@
+[
+  {
+    "id": "a54e06be-7bc3-4365-96e4-39e4759f9f46",
+    "data": [
+      {
+        "text": "what do you recommend me for anxiety?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1812d968-4457-4389-977a-2afc86df3d66",
+    "data": [
+      {
+        "text": "I\u0027m feeling anxious",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
