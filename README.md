@@ -6,7 +6,7 @@ Before augmenting the psychology data for the fine-tuning, it was crucial to con
 One of the key papers that informed our research is:
 - Author(s): Lindgren, Helena and Sjöström, Jonas
 - Title: Fine-tuning a Language Model using Reinforcement Learning from Human Feedback for a Therapy Chatbot Application
-- URL: [Link to the paper](https://www.diva-portal.org/smash/get/diva2:1782678/FULLTEXT01.pdf)
+- URL: [Link to the paper](https://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1782678&dswid=-7219)
 
 # Section 2: Dataset
 Based on the research, it was decided to fine-tune the model with data from papers and studies that can demonstrate not just a technical improvement of the loss and accuracy, but also a well-being for the patient, as well to train models to comprehend and respond empathetically to user messages. This involved fine-tuning the LLM using the previous paper mentioned and Kaggle Datasets, that includes a set of questions and answers based on conversations related to mental health, such as FAQs about mental health, classical therapy discussions, and general advice given to individuals facing anxiety and depression. This resources are:
