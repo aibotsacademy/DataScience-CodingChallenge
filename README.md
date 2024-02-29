@@ -34,7 +34,7 @@ This repository explores two approaches to fine-tuning natural language processi
 
 ## 3.1 Fine-Tuning OpenAI Model:
 
-- **Approach**: Adapt GPT-3.5 pre-trained model, to new data or tasks.
+- **Approach**: Adapt GPT-3.5-turbo pre-trained model, to new data or tasks.
 - **Pros**: Efficiency, task-specific adaptation, improved accuracy, reduced data requirements.
 - **Cons**: Overfitting, domain specificity, complexity.
 
